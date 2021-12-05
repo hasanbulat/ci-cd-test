@@ -38,3 +38,5 @@ jobs:
         uses: actions/setup-java@v2.4.0
         with:
             java-version: '11'
+            distribution: 'temurin'
+      - run: java -cp java HelloWorldApp
