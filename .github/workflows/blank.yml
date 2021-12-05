@@ -39,4 +39,4 @@ jobs:
         with:
             java-version: '11'
             distribution: 'temurin'
-      - run: java -cp java HelloWorldApp
+      - run: java --version
