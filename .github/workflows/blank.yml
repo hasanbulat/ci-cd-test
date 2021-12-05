@@ -40,3 +40,6 @@ jobs:
             java-version: '11'
             distribution: 'temurin'
       - run: java --version
+      
+      - name: Install build tools
+        run: sudo apt-get install bison g++-multilib git gperf libxml2-utils make zlib1g-dev:i386 zip liblz4-tool libncurses5 libssl-dev bc flex curl python-in-python3 -y
